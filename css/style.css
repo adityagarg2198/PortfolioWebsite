@@ -1,0 +1,420 @@
+*{
+    box-sizing: border-box;
+}
+
+/* navbar section  */
+.navbar{
+    padding: 1%;
+    background-color: #008ae6;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0,0.1);
+}
+.navbar-brand{
+    color:white;
+    font-family: 'Holtwood One SC', serif;
+    font-size: xx-large;
+}
+.navbar-brand:hover{
+    color:white;
+}
+.folio{
+    font-size:x-large;
+}
+.nav-link{
+    color:white;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: large;
+}
+.nav-link:hover{
+    color:#000f1a;
+}
+.togg:hover{
+    border-color:white;
+}
+.togg .navbar-toggler-icon {
+    background-image: url( 
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+.navbar-nav{
+      margin-left: auto;
+      text-align: center;
+  }
+ 
+/* home */
+#title{
+    background-color: white;
+    width: 100%;   
+}
+.title{
+    position: relative; 
+    padding: 5%; 
+}
+.title .box{
+    position: relative;
+    box-shadow: 0 0 25px 2px rgba(0, 138, 230,0.5);
+    padding: 0;
+}
+.blue{
+    background-color: #008ae6;  
+    padding: 3% 6%; 
+}
+.intro_desc{
+    margin: 0 0 0 auto;
+    font-family: 'Holtwood One SC', serif;
+    color: white; 
+    width:50%;
+}
+#one{
+    font-size: large;
+    margin-bottom: 0;
+}
+#two{
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+#three{
+    font-size: x-large;
+}
+.profile img{
+    width:25%;
+    border-radius: 50%;
+    position: absolute;
+    top:10vh;
+    margin-left: 2%;
+}
+.white{
+    background-color:white;
+    padding:3% 6%;    
+}
+.about_desc{
+    width:75%;
+    margin-left:auto;  
+}
+.heading{
+    font-family: 'Yusei Magic', sans-serif;
+    color:#008ae6;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+.hbody{
+    font-family: 'Yusei Magic', sans-serif;
+    color:#000f1a;
+    font-size: x-large;
+}
+
+/* projects */
+#projects{
+    width: 100%;
+    background-color: #008ae6;
+    padding:5% 0%;
+}
+.projects-box{
+    box-shadow: 0 0 25px 1px rgba(255, 255, 255,0.7);
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-item{
+    padding: 3% 6%;
+}
+.projects-img{
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 5%;
+}
+
+
+
+/* skills */
+#skills{
+    background-color:white;
+    padding: 5% 5%;
+}
+.skill-img{
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 5%;
+}
+.skill-box{
+    box-shadow: 0 0 25px 2px rgba(0, 138, 230,0.5);
+    margin:0 auto 0 auto;
+    width: 40%;
+    text-align: center;
+}
+.skill-box .heading{
+    color: white;
+}
+
+
+
+/* contact section  */
+
+#contact{
+    background-color:#008ae6;
+    width:100%;
+    padding-top: 3%;
+}
+.contact .heading{
+    color:white;
+}
+.social{
+    border-radius: 100%;
+    width: 20%;
+    text-align: center;   
+}
+.social-p{
+    font-family: 'Yusei Magic', sans-serif;
+    color: white;
+    margin-top: 2%;
+    font-size: x-large;
+}
+
+
+
+/* media queries */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 420.98px) { 
+   
+    .navbar-brand{
+        font-size: small;
+    }
+    .folio{
+        font-size:smaller;
+    }
+    .nav-link{
+        font-size: x-small;
+    } 
+    /* home */
+    .title{
+        position: relative; 
+        padding: 10%; 
+    }
+    #one{
+        font-size: x-small;
+        margin-bottom: 0;
+    }
+    #two{
+        font-size: small;
+        margin-bottom: 0;
+    }
+    #three{
+        font-size: x-small;
+    }
+    .profile img{
+        top:5vh;
+    }
+    .heading{
+        font-size: small;
+    }
+    .hbody{
+        font-size: x-small;
+    }
+    
+    /* projects */
+    .projects-box{
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    .projects-img{
+        height: 2rem;
+    }
+    
+    /* skills */
+    .skill-img{
+        height: 2rem;
+    }
+    .skill-box{
+        margin:auto auto 7% auto;
+        width: 75%;
+    }
+  
+    /* contact section  */
+    .social-p{
+        font-size: small;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 421px) and (max-width: 576.98px) { 
+    .navbar{
+        padding: 2%;
+    }
+    .navbar-brand{
+        font-size: medium;
+    }
+    .folio{
+        font-size:small;
+    }
+    .nav-link{
+        font-size: smaller;
+    } 
+    /* home */
+    .title{
+        position: relative; 
+        padding: 7%; 
+    }
+    #one{
+        font-size: small;
+        margin-bottom: 0;
+    }
+    #two{
+        font-size: medium;
+        margin-bottom: 0;
+    }
+    #three{
+        font-size: small;
+    }
+    .profile img{
+        top:5vh;
+    }
+    .heading{
+        font-size: medium;
+    }
+    .hbody{
+        font-size: smaller;
+    }
+    
+    /* projects */
+    .projects-box{
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    .projects-img{
+        height: 3rem;
+    }
+    
+    /* skills */
+    .skill-img{
+        height: 3rem;
+    }
+    .skill-box{
+        margin:auto auto 7% auto;
+        width: 75%;
+    }
+  
+    /* contact section  */
+    .social-p{
+        font-size: medium;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 577px) and (max-width: 850.98px) { 
+    .navbar{
+        padding: 2%;
+    }
+    .navbar-brand{
+        font-size: large;
+    }
+    .folio{
+        font-size:medium;
+    }
+    .nav-link{
+        font-size: medium;
+    } 
+    /* home */
+    .title{
+        position: relative; 
+        padding: 5%; 
+    }
+    #one{
+        font-size: medium;
+        margin-bottom: 0;
+    }
+    #two{
+        font-size: large;
+        margin-bottom: 0;
+    }
+    #three{
+        font-size: medium;
+    }
+    .profile img{
+        top:5vh;
+    }
+    .heading{
+        font-size: large;
+    }
+    .hbody{
+        font-size: medium;
+    }
+    
+    /* projects */
+    .projects-img{
+        height: 4rem;
+    }
+    
+    /* skills */
+    .skill-img{
+        height: 4rem;
+    }
+    .skill-box{
+        margin:auto auto 7% auto;
+        width: 75%;
+    }
+    /* contact section  */
+    .social-p{
+        font-size: large;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 851px) and (max-width: 1000px) { 
+    .navbar{
+        padding: 2%;
+    }
+    .navbar-brand{
+        font-size: x-large;
+    }
+    .folio{
+        font-size:large;
+    }
+    .nav-link{
+        font-size: medium;
+    } 
+    /* home */
+    .title{
+        position: relative; 
+        padding: 5%; 
+    }
+    #one{
+        font-size: medium;
+        margin-bottom: 0;
+    }
+    #two{
+        font-size: x-large;
+        margin-bottom: 0;
+    }
+    #three{
+        font-size: large;
+    }
+    .profile img{
+        top:5vh;
+    }
+    .heading{
+        font-size: x-large;
+    }
+    .hbody{
+        font-size: large;
+    }
+    
+    /* projects */
+    .projects-img{
+        height: 5rem;
+    }
+    
+    /* skills */
+    .skill-img{
+        height: 5rem;
+    }
+    .skill-box{
+        margin:0 auto 0 auto;
+    }
+    /* contact section  */
+    .social-p{
+        font-size: x-large;
+    }
+}
